@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="indexlogic" method="post">
+{% csrf_token %}
+<input type="text" name="txtemail" placeholder="Enter emailid" />
+<br>
+<br>
+<input type="text" name="txtpass" placeholder="Enter password" />
+<br>
+<br>
+<input type="text" name="txtmobile" placeholder="Enter mobile" />
+<br>
+<br>
+<input type="text" name="txtfullname" placeholder="Enter fullname" />
+<br>
+<br>
+<input type="text" name="txtaddress" placeholder="Enter address" />
+<br>
+<br>
+<input type="submit" name="btnsubmit" value="INSERT" />
+
+</form>
+{{res}}
+</body>
+</html>
